@@ -1,4 +1,6 @@
 
+# A Notebook is a Hypothesis
+
 1. notebooks.ipynb
 
     * Physical Notebooks
@@ -14,12 +16,12 @@
     * Formal Reproducible Testing
     * Reuse
 
+# Takeaways
+
+## references
+
 
 ```python
     if __name__ == '__main__':
         !jupyter nbconvert --to markdown readme.ipynb
 ```
-
-    [NbConvertApp] Converting notebook readme.ipynb to markdown
-    [NbConvertApp] Writing 159 bytes to readme.md
-
