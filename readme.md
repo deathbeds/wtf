@@ -11,6 +11,15 @@
 2. ### [The lifecycle of hypothesis testing & interactive computing in Jupyter notebooks.](interactive.ipynb)
 3. ### [Preserving computational essays for reuse.](testing.ipynb)
 
+ ---
+
+# Takeaways
+
+* ### [Computational essays take parts from literacy and programming to tell data driven stories.](http://blog.stephenwolfram.com/2017/11/what-is-a-computational-essay/).
+* ### Best practices for maturing notebooks into computational essays.
+* ### Formal software testing practices to extend the __sell by date__ of a notebook.
+* ### All of the artifacts of this presentation and to explore later.
+
 ---
 
 # Links to this presentation.
@@ -24,13 +33,6 @@ Code along with binder.
 
 ---
 
-# Takeaways
-
-* ### [Computational essays take parts from literacy and programming to tell data driven stories.](http://blog.stephenwolfram.com/2017/11/what-is-a-computational-essay/).
-* ### Best practices for composing computational essays in Jupyter.
-* ### Formal software testing practices to extend the __sell by date__ of a notebook.
-* ### Review this presentation and click on all the links.
-
 ## Resources for new notebook users.
 
 * ### [Jupyter/IPython Notebook Quick Start Guide](http://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/)
@@ -39,13 +41,14 @@ Code along with binder.
 
 ## Useful packages for advanced notebooks users
 
-* ### [Importnb](https://github.com/deathbeds/importnb/tree/master/src/importnb)
+* ### [importnb](https://github.com/deathbeds/importnb/tree/master/src/importnb)
 * ### [doctest](https://docs.python.org/3/library/doctest.html)
 * ### [pytest](https://docs.pytest.org/en/latest/customize.html)
 * ### [mybinder](https://mybinder.org/)
 * ### [nbviewer](http://nbviewer.jupyter.org/)
 * ### [nbconvert](https://github.com/jupyter/nbconvert/tree/master/nbconvert/exporters)
 * ### [jupyterlab](https://github.com/jupyterlab/jupyterlab/issues/2369)
+* ### [graphviz](http://graphviz.readthedocs.io/en/stable/manual.html) _for diagrams._
 
 ## Resources for advanced users
 
@@ -74,25 +77,9 @@ Deathbeds is open source coding collective experimenting with interactive comput
         !jupyter nbconvert --to markdown readme.ipynb
 ```
 
-    [NbConvertApp] Converting notebook readme.ipynb to markdown
-    [NbConvertApp] Writing 3731 bytes to readme.md
-
-
 
 ```python
     if __name__ == '__main__':
         import pytest
         pytest.main([])
 ```
-
-    ============================ test session starts =============================
-    platform darwin -- Python 3.6.3, pytest-3.5.0, py-1.5.3, pluggy-0.6.0
-    benchmark: 3.1.1 (defaults: timer=time.perf_counter disable_gc=False min_rounds=5 min_time=0.000005 max_time=1.0 calibration_precision=10 warmup=False warmup_iterations=100000)
-    rootdir: /Users/tonyfast/_what_is_a_hypothesis, inifile:
-    plugins: cov-2.5.1, benchmark-3.1.1, hypothesis-3.56.5, importnb-0.3.1
-    collected 1 item
-    
-    test_notebook_dir.ipynb .                                              [100%]
-    
-    ========================== 1 passed in 0.77 seconds ==========================
-
