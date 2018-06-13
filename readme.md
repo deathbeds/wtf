@@ -15,7 +15,7 @@
 
 # Links to this presentation.
 
-[github](https://github.com/deathbeds/importnb/blob/master/readme.ipynb) | [nbviewer](http://nbviewer.jupyter.org/github/deathbeds/wtf/blob/master/readme.ipynb) | [jupyterhub](https://github.com/jupyterhub/jupyterhub)
+[github](https://github.com/deathbeds/importnb/blob/master/readme.ipynb) | [nbviewer](http://nbviewer.jupyter.org/github/deathbeds/wtf/blob/master/readme.ipynb)
 
 Code along with binder.
 
@@ -29,6 +29,7 @@ Code along with binder.
 * ### [Computational essays take parts from literacy and programming to tell data driven stories.](http://blog.stephenwolfram.com/2017/11/what-is-a-computational-essay/).
 * ### Best practices for composing computational essays in Jupyter.
 * ### Formal software testing practices to extend the __sell by date__ of a notebook.
+* ### Review this presentation and click on all the links.
 
 ## Resources for new notebook users.
 
@@ -74,7 +75,7 @@ Deathbeds is open source coding collective experimenting with interactive comput
 ```
 
     [NbConvertApp] Converting notebook readme.ipynb to markdown
-    [NbConvertApp] Writing 377 bytes to readme.md
+    [NbConvertApp] Writing 3672 bytes to readme.md
 
 
 
@@ -99,5 +100,5 @@ Deathbeds is open source coding collective experimenting with interactive comput
     
     test_notebook.ipynb .                                                  [100%]
     
-    ========================== 1 passed in 0.36 seconds ==========================
+    ========================== 1 passed in 0.96 seconds ==========================
 
