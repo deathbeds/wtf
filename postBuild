@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 set -ex
-EXTENSIONS=jupyterlab-toc@0.2.1 \
-@jupyter-widgets/jupyterlab-manager@0.35.0
+EXTENSIONS="jupyterlab-toc@0.2.1" "@jupyter-widgets/jupyterlab-manager@0.35.0"
 
 jupyter labextension install $EXTENSIONS
