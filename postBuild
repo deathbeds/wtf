@@ -9,5 +9,3 @@ done
 jupyter labextension list
 
 jupyter lab build --dev
-
-importnb-install
