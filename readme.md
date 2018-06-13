@@ -42,14 +42,14 @@ Code along with binder.
 * ### [Importnb](https://github.com/deathbeds/importnb/tree/master/src/importnb)
 * ### [doctest](https://docs.python.org/3/library/doctest.html)
 * ### [pytest](https://docs.pytest.org/en/latest/customize.html)
-* ### [Mybinder](https://mybinder.org/)
+* ### [mybinder](https://mybinder.org/)
 * ### [nbviewer](http://nbviewer.jupyter.org/)
 * ### [nbconvert](https://github.com/jupyter/nbconvert/tree/master/nbconvert/exporters)
 * ### [jupyterlab](https://github.com/jupyterlab/jupyterlab/issues/2369)
 
 ## Resources for advanced users
 
-* 
+* ### [Integrating IPython/Jupyter with your objects](http://ipython.readthedocs.io/en/stable/config/integrating.html)
 * ### Learn deep learning in [fast.ai](http://www.fast.ai/) notebooks.
 
 # Deathbeds
@@ -75,7 +75,7 @@ Deathbeds is open source coding collective experimenting with interactive comput
 ```
 
     [NbConvertApp] Converting notebook readme.ipynb to markdown
-    [NbConvertApp] Writing 3672 bytes to readme.md
+    [NbConvertApp] Writing 3731 bytes to readme.md
 
 
 
@@ -90,15 +90,9 @@ Deathbeds is open source coding collective experimenting with interactive comput
     benchmark: 3.1.1 (defaults: timer=time.perf_counter disable_gc=False min_rounds=5 min_time=0.000005 max_time=1.0 calibration_precision=10 warmup=False warmup_iterations=100000)
     rootdir: /Users/tonyfast/_what_is_a_hypothesis, inifile:
     plugins: cov-2.5.1, benchmark-3.1.1, hypothesis-3.56.5, importnb-0.3.1
-
-
-
-    interactive(children=(IntSlider(value=10, description='a', max=30, min=-10), Output()), _dom_classes=('widget-…
-
-
     collected 1 item
     
-    test_notebook.ipynb .                                                  [100%]
+    test_notebook_dir.ipynb .                                              [100%]
     
-    ========================== 1 passed in 0.96 seconds ==========================
+    ========================== 1 passed in 0.77 seconds ==========================
 
