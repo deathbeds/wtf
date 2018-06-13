@@ -1,11 +1,17 @@
 #!/usr/bin/env bash
 set -ex
-EXTENSIONS="jupyterlab-toc@0.2.1 @jupyter-widgets/jupyterlab-manager@0.35.0 @jupyterlab/github@0.7.2"
 
-for ext in $EXTENSIONS; do
+LABEXTENSIONS="\
+@jupyter-widgets/jupyterlab-manager@0.35.0 \
+@jupyterlab/github@0.7.2 \
+jupyterlab-toc@0.2.1 \
+nbdime-jupyterlab@0.3.0 \
+"
+
+for ext in $LABEXTENSIONS; do
   jupyter labextension install $ext --no-build || echo "whatever, $ext"
 done
 
 jupyter labextension list
 
-jupyter lab build --dev
+jupyter lab build --dev || echo "whatever, just get on with it"
