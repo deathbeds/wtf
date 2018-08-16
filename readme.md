@@ -7,9 +7,9 @@
 
 ---
 
-1. ### [The impacts of physical and computational notebooks on science.](notebooks.ipynb)
-2. ### [The lifecycle of hypothesis testing & interactive computing in Jupyter notebooks.](interactive.ipynb)
-3. ### [Preserving computational essays for reuse.](testing.ipynb)
+1. ### [The impacts of physical and computational notebooks on science.](0_notebooks.ipynb)
+2. ### [The lifecycle of hypothesis testing & interactive computing in Jupyter notebooks.](1_interactive.ipynb)
+3. ### [Preserving computational essays for reuse.](2_testing.ipynb)
 
  ---
 
@@ -83,3 +83,10 @@ Deathbeds is open source coding collective experimenting with interactive comput
         import pytest
         pytest.main([])
 ```
+
+    ============================ test session starts =============================
+    platform darwin -- Python 3.6.3, pytest-3.5.0, py-1.5.3, pluggy-0.6.0
+    benchmark: 3.1.1 (defaults: timer=time.perf_counter disable_gc=False min_rounds=5 min_time=0.000005 max_time=1.0 calibration_precision=10 warmup=False warmup_iterations=100000)
+    rootdir: /Users/tonyfast/_what_is_a_hypothesis, inifile:
+    plugins: cov-2.5.1, benchmark-3.1.1, hypothesis-3.56.5, importnb-0.3.1
+    
